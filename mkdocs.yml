@@ -21,13 +21,3 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-    features:
-      - navigation.tracking
-      - navigation.tabs
-      - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.expand
-      - navigation.path
-      - navigation.top
-    plugins:
-      - optimize
