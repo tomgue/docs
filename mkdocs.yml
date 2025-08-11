@@ -1,1 +1,5 @@
 site_name: My Docs on Github
+site_url: https://tomgue.github.io/docs/
+theme:
+  name: material
+  language: fr
