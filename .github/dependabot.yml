@@ -1,6 +1,15 @@
 version: 2
 updates:
+  # Section pour les dépendances Python
   - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "tomgue"
+
+  # Section pour les actions GitHub
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
