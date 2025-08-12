@@ -32,7 +32,7 @@ jobs:
         run: mkdocs build # Exécute la commande de "build" qui génère les fichiers HTML, CSS, etc., dans le dossier "site"
 
       - name: Setup Pages # Étape 5 : Configurer l'environnement de déploiement de GitHub Pages
-        uses: actions/configure-pages@v4 # Prépare l'environnement pour l'upload d'artefacts
+        uses: actions/configure-pages@v5 # Prépare l'environnement pour l'upload d'artefacts
 
       - name: Upload artifact # Étape 6 : Télécharger l'artefact de déploiement
         uses: actions/upload-pages-artifact@v3 # Utilise l'action officielle pour télécharger le dossier "site"
