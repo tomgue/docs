@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout # Étape 1 : Récupérer le code du dépôt
-        uses: actions/checkout@v4 # Utilise l'action officielle pour cloner ton dépôt
+        uses: actions/checkout@v5 # Utilise l'action officielle pour cloner ton dépôt
 
       - name: Setup Python # Étape 2 : Configurer l'environnement Python
         uses: actions/setup-python@v5 # Utilise l'action officielle pour installer Python
